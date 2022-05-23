@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { ExampleComponent } from 'react-generic-pagination'
+import { PaginationGeneric } from 'react-generic-pagination'
 import 'react-generic-pagination/dist/index.css'
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     console.log('pagina', page)
   }
   
-  return <ExampleComponent pagina={page} total={10} hello={helloWorld}/>
+  return <PaginationGeneric pagina={page} total={10} hello={helloWorld}/>
 }
 
 export default App

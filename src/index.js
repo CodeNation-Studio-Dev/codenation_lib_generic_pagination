@@ -4,7 +4,7 @@ import Pagination, { paginationClasses } from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 
 
-export const ExampleComponent = (props) => {
+export const PaginationGeneric = (props) => {
 
   const [page, setPage] = useState('');
 
