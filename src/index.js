@@ -15,7 +15,7 @@ export const PaginationGeneric = (props) => {
   };
 
   return (
-    <Stack spacing={2}>
+    <Stack>
       <Pagination count={props.total} onChange={handleChange} showFirstButton showLastButton variant="outlined" color="primary" size="large"/>
     </Stack>
   );
