@@ -10,7 +10,7 @@ export const PaginationGeneric = (props) => {
 
   const handleChange = (event, value) => {
     console.log(value)
-    props.hello(value)
+    props.pageSetter(value)
     setPage(value);
   };
 
